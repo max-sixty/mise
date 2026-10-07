@@ -1,5 +1,34 @@
 # Changelog
 
+## [2026.10.5](https://github.com/jdx/mise/compare/v2026.10.4..v2026.10.5) - 2026-10-07
+
+### 🚀 Features
+
+- **(bootstrap)** add an os filter to files and directories by @jdx in [#14058](https://github.com/jdx/mise/pull/14058)
+
+### 🐛 Bug Fixes
+
+- **(daemons)** quote deferred daemon commands for cmd.exe on Windows by @JamBalaya56562 in [#14055](https://github.com/jdx/mise/pull/14055)
+
+### 🧪 Testing
+
+- **(config)** don't rely on teleport plugins being absent in not-found test by @jdx in [#14059](https://github.com/jdx/mise/pull/14059)
+
+### 📦️ Dependency Updates
+
+- update rust crate demand to v2.4.0 by @renovate[bot] in [#14054](https://github.com/jdx/mise/pull/14054)
+
+### Security
+
+- **(npm)** redact credentials in Git-source diagnostics by @jdx in [#14057](https://github.com/jdx/mise/pull/14057)
+- **(npm)** redact normalized SSH diagnostics by @jdx in [#14064](https://github.com/jdx/mise/pull/14064)
+
+### 📦 Aqua Registry Updates
+
+#### Updated Packages (1)
+
+- [`pvolok/dekit`](https://github.com/pvolok/dekit)
+
 ## [2026.10.4](https://github.com/jdx/mise/compare/v2026.10.3..v2026.10.4) - 2026-10-07
 
 ### 🚀 Features
